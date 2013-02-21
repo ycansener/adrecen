@@ -1,27 +1,87 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
-<!-- above set at the top of the file will set     -->
-<!-- the browser's rendering engine into           -->
-<!-- "Quirks Mode". Replacing this declaration     -->
-<!-- with a "Standards Mode" doctype is supported, -->
-<!-- but may lead to some differences in layout.   -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>AdRecEn - Ad Recommendation Engine</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
 
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Hello App Engine</title>
-  </head>
+<!--[if IE 6]>
+	<script type="text/javascript" src="unitpngfix.js"></script>
+<![endif]--> 
+<script  type="text/javascript" src="ContentProvider.js"></script>
+<script  type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="wrap">
 
-  <body>
-    <h1>Hello App Engine!</h1>
-	
-    <table>
-      <tr>
-        <td colspan="2" style="font-weight:bold;">Available Servlets:</td>        
-      </tr>
-      <tr>
-        <td><a href="adrecen_tez">Adrecen_tez</a></td>
-      </tr>
-    </table>
-  </body>
+    	<div class="logo"><a href="index.html"><img src="images/logo.gif" alt="" title="" border="0" /></a></div>
+        <div id="menu">
+            <ul>                                                                       
+            <li id="listItem0" class="selected"><a onclick="getContent(0);" href="#">home</a></li>
+            <li id="listItem1"><a onclick="getContent(1);" href="#">what is AdRecEn</a></li>
+            <li id="listItem2"><a onclick="getContent(2);" href="#">about us</a></li>
+            <li id="listItem3"><a onclick="getContent(3);" href="#">owners and developers</a></li>
+            </ul>
+        </div>
+           
+    <div class="user_icon"><img src="images/user.png" alt="" title="" border="0"/></div>
+    
+    <div id="content-area" class="welcome_block">
+		<h1>Welcome</h1>
+		<p>Home page content</p> 
+		<a href='/AdrecenAppTest.html'>
+		<img src='images/request_quote.gif' alt='' title='' border='0' class='request_quote' />
+		</a>
+    </div> <!--End of welcome_block-->
+    
+
+    <div class="main_content" style="height:100px;">
+    		
+    </div><!--End of main_content-->
+
+    
+</div><!--End of wrap-->
+
+<div class="footer">
+	<div class="footer_content">
+    
+    	<div class="left_footer_content">
+        	<h2>Get in touch</h2>
+            <p>
+            For all questions and suggestions<br />
+            Email : <span class="brown">ycansener@gmail.com</span><br />
+            Email : <span class="brown">dnztimur@gmail.com</span><br />
+            Email : <span class="brown">gozdecavga@gmail.com</span><br />
+            <span class="brown">All Rights Reserved 2013 AdRecEn Dev. Team</span>            
+            </p>
+        
+        </div>
+    
+        <div class="footer_links">
+        	<h2>Related links</h2>
+            <ul>
+            <li><a href="http://www.ege.edu.tr">Ege University</a></li>
+            <li><a href="http://www.bilmuh.ege.edu.tr">E.U. Computer<br />Engineering Department</a></li>
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer_network">
+        	<h2>Network</h2>
+        <a href="#" target="_blank"><img src="images/rss_48.gif" alt="" title="" border="0" /></a>
+        <a href="#" target="_blank"><img src="images/digg_48.gif" alt="" title="" border="0" /></a>
+        <a href="#" target="_blank"><img src="images/sumbleupon_48.gif" alt="" title="" border="0" /></a>
+        <a href="#" target="_blank"><img src="images/reddit_48.gif" alt="" title="" border="0" /></a>
+        <a href="#" target="_blank"><img src="images/technorati_48.gif" alt="" title="" border="0" /></a>
+        <a href="#" target="_blank"><img src="images/delicious_48.gif" alt="" title="" border="0" /></a>
+        <a href="#" target="_blank"><img src="images/twitter_boxed_48.gif" alt="" title="" border="0" /></a>
+        
+        </div>
+        
+	</div>
+</div><!--End of footer-->
+
+
+
+</body>
 </html>
