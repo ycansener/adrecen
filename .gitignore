@@ -1,2 +1,20 @@
-*.jar
 *.class
+
+# GAE SDK 
+appengine*.jar
+datanucleus*.jar
+jdo*.jar
+geronimo*.jar
+jta*.jar
+jsr107*.jar
+
+*.tmp
+
+# GAE development server dosyalari
+appengine-generated/
+
+# class klasoru
+classes/
+
+# Backup files
+*~
